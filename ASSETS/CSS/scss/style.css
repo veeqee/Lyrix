@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  background-image: url(../positive-carefree-bearded-dark-skinned-man-smiles-broadly-raises-arms.jpg);
+  background-image: url(../click.jpg);
   background-size: cover;
   background-repeat: no-repeat;
  
@@ -107,9 +107,3 @@ body section .card_row .card_col button {
    margin-left:-50px;
 }
 
-@media only screen and (max-width: 768px) {
- 
-  [class*="col-"] {
-    width: 100%;
-  }
-}
