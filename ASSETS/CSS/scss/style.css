@@ -1,0 +1,115 @@
+body {
+  box-sizing: border-box;
+  background-image: url(../positive-carefree-bearded-dark-skinned-man-smiles-broadly-raises-arms.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+}
+
+body section {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body section .container {
+  height: 100%;
+}
+
+
+body section .container nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+body section .container nav .nav-brand p {
+  color: #ffa6a6;
+  margin-top: 60px;
+  
+  font-size: x-large;
+}
+.YES{
+  font-weight: 400;
+}
+
+body .section .form {
+  margin-top: 50px;
+  color: #ff5959;
+  width: 70%;
+  max-width: 70%;
+  
+  height: 90px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  top: 50%;
+  left: 50%;
+
+}
+
+body .section button {
+  background-color: #000000;
+  margin-top: -90px;
+  margin-left: 500px;
+  border-radius: 60px 60px;
+  width: 250px;
+  position: absolute;
+  height: 90px;
+  border-color: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 600px;
+}
+
+body section .card_row {
+    display: flex;
+  height: 300px;
+}
+
+body section .card_row .card_col {
+  background-color: rgba(0, 0, 0, 0.404);
+  border-right: rgba(253, 253, 253, 0.315) 2px double;
+  border-left: rgba(255, 255, 255, 0.548) 2px double;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.3;
+  color: white;
+  
+}
+
+body section .card_row .card_col h2 {
+  color: white;
+}
+
+body section .card_row .card_col a {
+  text-decoration: none;
+  color: black;
+}
+
+body section .card_row .card_col button {
+  background-color: white;
+  height: 40px;
+  width: 100px;
+  color: white;
+   border-radius: 20px 20px;
+   position: absolute;
+   margin-top: 40px;
+   margin-left:-50px;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  [class*="col-"] {
+    width: 100%;
+  }
+}

@@ -1,0 +1,131 @@
+body {
+        //background-color: red;
+        //background-image: url(/ASSETS/IMAGES/Background\ images.jpg);
+       box-sizing: border-box;
+       font-family:$rye ;
+      
+
+       section {
+
+       background-image: url(/ASSETS/IMAGES/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+           
+        
+        .container {
+             //border: 1px red dotted;
+             height: 1000px;
+
+            .img1 {
+                    position: absolute;
+                    left: 420px;
+                    top: 5px;
+                    width: 100px;
+                    border-radius: 10px;
+                   
+                    
+                    
+            }
+            .img2 {
+                position: absolute;
+                right: 420px;
+                top: 5px;
+                width: 100px;
+                border-radius: 10px;
+            }
+       
+        
+        nav {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            .nav-brand {
+                color: $primaryColor;
+                margin-top: 30px;
+               font-size: 50px;
+                p {
+                    color: lighten($color: $primaryColor, $amount: 15%);
+                    margin-top: 60px;
+                    font-weight: 600;
+                    font-size: x-large;
+                }
+            }
+        }
+    }
+    }
+
+
+    .section {
+      
+      .form {
+          margin-top: 50px;
+          color:black;
+          background-color: white;
+                  
+
+      }
+      button {
+          background-color:lighten($color: $primaryColor, $amount: 5%);
+          margin-top: 30px;
+          margin-left:500px;
+     
+
+      }
+
+    }
+    section {
+    
+    .card_row {
+        margin-top: 30px;
+        display: flex;
+        height: 300px;
+        
+        
+
+        .card_col {
+            background-color:white;
+            //border: 2px solid black;
+            //margin-right: ;
+            border-right: black 2px double;
+            border-left: black 2px double ;
+            padding-top: 50px;
+            padding-bottom: 70px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            line-height: 1.3;
+            color: rgb(255, 255, 255);
+            background-image: url(/ASSETS/IMAGES/card.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-clip: border-box;
+           
+            
+            h2 {
+               color: lighten($color: $primaryColor, $amount: 20%); 
+            }
+            
+            
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            button {
+                background-color:lighten($color: $primaryColor, $amount: 5%);
+                color: rgb(0, 0, 0);
+                //border: 2px solid red;
+                margin-top: 30px;
+            }
+
+            
+            
+            
+        }
+        }
+    }
+
+    
+}
